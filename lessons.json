@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e82"
+  },
+  "id": 1,
+  "subject": "Biology",
+  "location": "Birmingham",
+  "price": 500,
+  "spaces": 4
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e83"
+  },
+  "id": 2,
+  "subject": "English",
+  "location": "London",
+  "price": 1500,
+  "spaces": 5
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e84"
+  },
+  "id": 3,
+  "subject": "Mathematics",
+  "location": "United Kingdom",
+  "price": 2500,
+  "spaces": 5
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e85"
+  },
+  "id": 4,
+  "subject": "Chemistry",
+  "location": "France",
+  "price": 3500,
+  "spaces": 5
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e86"
+  },
+  "id": 5,
+  "subject": "TD",
+  "location": "Russia",
+  "price": 4500,
+  "spaces": 4
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e87"
+  },
+  "id": 6,
+  "subject": "French",
+  "location": "Dubai",
+  "price": 5500,
+  "spaces": 5
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e88"
+  },
+  "id": 7,
+  "subject": "Yoruba",
+  "location": "Nigeria",
+  "price": 6500,
+  "spaces": 5
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e89"
+  },
+  "id": 8,
+  "subject": "Igbo",
+  "location": "South Africa",
+  "price": 7500,
+  "spaces": 4
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e8a"
+  },
+  "id": 9,
+  "subject": "CRS",
+  "location": "Poland",
+  "price": 8500,
+  "spaces": 4
+},{
+  "_id": {
+    "$oid": "60b402db3cd0bd3aa8353e8b"
+  },
+  "id": 10,
+  "subject": "Economics",
+  "location": "Ireland",
+  "price": 9500,
+  "spaces": 5
+}]
