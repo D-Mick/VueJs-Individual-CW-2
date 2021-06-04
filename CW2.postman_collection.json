@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "5b017227-086b-4183-856e-cf7ce9d9df19",
+		"name": "CW2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://vuejsindividualcw2.herokuapp.com/collection/lessons",
+					"protocol": "https",
+					"host": [
+						"vuejsindividualcw2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"collection",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://vuejsindividualcw2.herokuapp.com/collection/orders",
+					"protocol": "https",
+					"host": [
+						"vuejsindividualcw2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"collection",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post to orders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ma Chinnu\",\r\n    \"phone\": \"1234567890\",\r\n    \"lessons\":\r\n    [\r\n        {\r\n            \"_id\":\"some weird id\",\r\n            \"lessonId\": 199384,\r\n            \"spaces\": 5,\r\n            \"topic\": \"Web/Mobile Based Application\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vuejsindividualcw2.herokuapp.com/collection/orders",
+					"protocol": "https",
+					"host": [
+						"vuejsindividualcw2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"collection",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a specific lesson after ordering",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lessons\":\r\n    [\r\n        {\r\n            \"_id\":\"60b402db3cd0bd3aa8353e8b\",\r\n            \"spaces\": 2\r\n        },\r\n        {\r\n            \"_id\":\"60b402db3cd0bd3aa8353e8b\",\r\n            \"spaces\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vuejsindividualcw2.herokuapp.com/collection/lessons",
+					"protocol": "https",
+					"host": [
+						"vuejsindividualcw2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"collection",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
