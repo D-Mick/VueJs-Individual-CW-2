@@ -146,7 +146,7 @@
           this.cart.splice(index,1);
         },
         checkout: function () {
-            const newOrder = {
+            const Order = {
               name: this.order.name,
               phoneNumber: this.order.phoneNumber,
               lessons: this.cart.map((item) => {
@@ -161,7 +161,7 @@
 
             fetch("https://vuejsindividualcw2.herokuapp.com/collection/orders", {
               method: "POST",
-              body: JSON.stringify(newOrder),
+              body: JSON.stringify(Order),
               headers: {
                 "Content-Type": "application/json",
               },
