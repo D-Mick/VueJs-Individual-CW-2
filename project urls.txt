@@ -1,0 +1,3 @@
+GitHub Repository of Backend Code: https://github.com/D-Mick/VueJs-Individual-CW-2/blob/master/server.js
+GitHub Page that runs FrontEnd Code: https://d-mick.github.io/VueJs-Individual-CW-2/static/
+Heroku Route that returns Lesson Information: https://vuejsindividualcw2.herokuapp.com/collection/lessons
