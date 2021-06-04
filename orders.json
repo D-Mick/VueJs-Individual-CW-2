@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "60b8b88775c4911b9486b463"
+  },
+  "name": "micheal",
+  "phoneNumber": "46464644",
+  "cart": []
+},{
+  "_id": {
+    "$oid": "60b8c5e1dbbab921081b6990"
+  },
+  "name": "timi",
+  "phoneNumber": "6734638463",
+  "cart": []
+},{
+  "_id": {
+    "$oid": "60b8caca06b80c2874602819"
+  },
+  "name": "segun",
+  "phone": "3843840384083",
+  "cart": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e82",
+      "id": 1,
+      "subject": "Biology",
+      "location": "Birmingham",
+      "price": 500,
+      "spaces": 1
+    },
+    {
+      "_id": "60b402db3cd0bd3aa8353e8a",
+      "id": 9,
+      "subject": "CRS",
+      "location": "Poland",
+      "price": 8500,
+      "spaces": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8cb3ac41b6054143d5f08"
+  },
+  "name": "segun",
+  "phone": "30580348640",
+  "cart": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e82",
+      "id": 1,
+      "subject": "Biology",
+      "location": "Birmingham",
+      "price": 500,
+      "spaces": 1
+    },
+    {
+      "_id": "60b402db3cd0bd3aa8353e8a",
+      "id": 9,
+      "subject": "CRS",
+      "location": "Poland",
+      "price": 8500,
+      "spaces": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8e15c89f23141d4e9eb50"
+  },
+  "name": "trying",
+  "phone": "1111",
+  "cart": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e82",
+      "id": 1,
+      "subject": "Biology",
+      "location": "Birmingham",
+      "price": 500,
+      "spaces": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba119f08c5a70dc86e9bd1"
+  },
+  "name": "wow",
+  "phoneNumber": "12",
+  "lessons": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e82",
+      "lessonId": 1,
+      "spaces": 1,
+      "subject": "Biology"
+    },
+    {
+      "_id": "60b402db3cd0bd3aa8353e8a",
+      "lessonId": 9,
+      "spaces": 1,
+      "subject": "CRS"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba1282d9250b3270cbb53e"
+  },
+  "name": "david",
+  "phoneNumber": "1997",
+  "lessons": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e82",
+      "lessonId": 1,
+      "spaces": 1,
+      "subject": "Biology"
+    },
+    {
+      "_id": "60b402db3cd0bd3aa8353e8a",
+      "lessonId": 9,
+      "spaces": 1,
+      "subject": "CRS"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba1689d9250b3270cbb53f"
+  },
+  "name": "Abel",
+  "phoneNumber": "0398749373",
+  "lessons": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e86",
+      "lessonId": 5,
+      "spaces": 1,
+      "subject": "TD"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60ba211a80ffaa0015b25627"
+  },
+  "name": "jkfgnj",
+  "phoneNumber": "844",
+  "lessons": [
+    {
+      "_id": "60b402db3cd0bd3aa8353e89",
+      "lessonId": 8,
+      "spaces": 1,
+      "subject": "Igbo"
+    }
+  ]
+}]
