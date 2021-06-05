@@ -26,6 +26,7 @@ MongoClient.connect('mongodb+srv://hellBent:Oladimeji@cluster0.ovsdy.mongodb.net
     }
 })
 
+
 app.get('/', (req,res,next) =>{
     res.send('Select a collection, e.g., /collection/messages');
 })
@@ -34,7 +35,13 @@ app.param('collectionName', (req,res,next, collectionName) =>{
     req.collection = db.collection(collectionName);
     console.log('collection Name:', collectionName);
     return next();
-})
+});
+
+//getting the incoming requests
+app.use((req, res, next) => {
+  console.log("Incoming request to: " + req.url);
+  next();
+});
 
 //fetch all lessons
 app.get('/collection/:collectionName', (req, res, next) => {
