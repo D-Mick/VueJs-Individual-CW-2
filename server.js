@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const MongoClient  = require('mongodb').MongoClient;
 const ObjectID = require("mongodb").ObjectID;
 const cors = require('cors');
+var path = require('path');
+var imagePath = path.resolve(__dirname, "static/images");
 
 app.use(express.json())
 app.use(cors())
@@ -113,6 +115,15 @@ app.put("/collection/:collectionName", (req, res, next) => {
         });
     });
   });
+
+
+  //sends static files from the public path directory
+app.use('/static/images', express.static(imagePath));
+app.use(function(request, response,next) {
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("Erro finding image, please confirm the name");
+    
+});
 
 const port = process.env.PORT || 3000
 console.log(port);
